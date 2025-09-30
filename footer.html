@@ -1,0 +1,81 @@
+<!-- footer.html -->
+<footer class="main-footer">
+  <div class="container">
+    <div class="footer-text">
+      <p>© 2025 جميع الحقوق محفوظة - <span class="brand">تسليم واستلام الأجهزة</span></p>
+    </div>
+    <div class="social">
+      <a href="#" aria-label="رابط 1">1</a>
+      <a href="#" aria-label="رابط 2">2</a>
+      <a href="#" aria-label="رابط 3">3</a>
+    </div>
+  </div>
+</footer>
+
+<style>
+  /* استدعاء خط Cairo */
+  @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600&display=swap');
+
+  .main-footer {
+    background: rgba(43,108,176,0.8);      /* أزرق نصف شفاف */
+    backdrop-filter: blur(8px);            /* تأثير زجاجي */
+    color: #fff;
+    text-align: center;
+    padding: 25px 15px;
+    border-radius: 25px 25px 0 0;          /* حواف علوية مقوسة */
+    font-family: 'Cairo', sans-serif;
+  }
+
+  .container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .footer-text p {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #e2e8f0;
+  }
+
+  .footer-text .brand {
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .social {
+    display: flex;
+    gap: 20px;
+  }
+
+  .social a {
+    color: #38b2ac;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+
+  .social a:hover {
+    background: rgba(255,255,255,0.15);
+    color: #ffffff;
+  }
+
+  /* استجابة للجوال */
+  @media (max-width: 768px) {
+    .footer-text p {
+      font-size: 1rem;
+    }
+    .social a {
+      font-size: 1rem;
+    }
+  }
+</style>
+
+<script>
+  // هنا يمكن إضافة أي أكواد تفاعلية للفوتر لاحقًا
+</script>
